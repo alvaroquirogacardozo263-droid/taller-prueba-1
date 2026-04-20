@@ -1,15 +1,8 @@
-/* Reset básico */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #c3ec52, #0ba360);
-    color: #fff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,53 +11,59 @@ body {
 
 /* Contenedor */
 .container {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
-    padding: 40px;
+    background: #222;
+    padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    text-align: center;
+    width: 320px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
 }
 
 /* Header */
 header h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+    color: #ff6600;
 }
 
 header p {
-    font-size: 1.2em;
-    margin-bottom: 30px;
+    font-size: 14px;
+    color: #ccc;
 }
 
 /* Main */
-main p {
-    margin: 20px 0;
-    font-size: 1.2em;
-}
-
 .icon {
-    width: 80px;
-    margin-bottom: 20px;
+    width: 100px;
+    margin: 15px 0;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Botón */
 button {
-    padding: 12px 25px;
-    font-size: 1em;
-    background-color: #ffbb33;
-    color: #333;
+    margin-top: 15px;
+    padding: 10px 20px;
     border: none;
-    border-radius: 10px;
+    background: #ff6600;
+    color: white;
+    border-radius: 8px;
     cursor: pointer;
-    transition: 0.3s;
 }
 
 button:hover {
-    background-color: #ffdd66;
+    background: #e65c00;
 }
 
 /* Footer */
 footer {
-    margin-top: 30px;
-    font-size: 0.9em;
-    color: #eee;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #aaa;
 }
